@@ -3,6 +3,7 @@ import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
 
 export default function Index() {
   const {toggleDarkMode} = useTheme()
+
   return (
     <View style={styles.container}>
       <Text style={styles.content}>
